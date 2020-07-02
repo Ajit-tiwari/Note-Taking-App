@@ -1,0 +1,110 @@
+body{
+  background: linear-gradient(to left,rgb(0, 225, 250),rgba(1, 252, 176, 0.5));
+}
+.header{
+  line-height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(231, 255, 16, 0.671);
+  font-size: 1.2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footerold{text-align: center;
+  align-self: center;}
+
+.Footer{
+  padding: 10px 10px 0px 10px; 
+  bottom: 0; 
+  width: 100%; 
+  height: 80px; 
+  background: grey; 
+}
+
+.Logo{
+  margin-top: 15px;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+}
+.App{
+  display: block;
+  justify-content: center;
+  justify-items: center;
+}
+.main_note{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.main_form{
+  margin: 40px;
+}
+
+.add_btn{
+  top: 20px;
+  height: 20px;
+  width: 20px;
+}
+.text-area{
+  right: 10px;
+}
+
+/* .note-container{
+  margin-top: 20px;
+  display: flex;
+  width: auto;
+  
+  height: 300px;
+  flex-wrap: wrap;
+} */
+.note{
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(to bottom,rgb(215, 238, 9),rgba(0,0,0,0));
+  box-shadow: 2px 2px 7px rgba(112, 106, 106, 0.753);
+}
+
+.note-title{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: larger;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+.del-icn{
+  color: red;
+}
+.note-text{
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 200px;
+  align-self: center;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+/* font-family: 'Permanent Marker', cursive; */
+}
+
+.delete-icon{
+  color: black;
+  align-self: flex-end;
+}
+
+.notes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 300px;
+}
+
+.App-win{
+  display: flex;
+  flex-direction: column;
+}
