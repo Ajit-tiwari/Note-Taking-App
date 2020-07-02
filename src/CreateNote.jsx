@@ -45,7 +45,8 @@ const CreateNote=(props)=>{
                         margin="normal" 
                         name="text"  
                         value={note.text} 
-                        onChange={InputEvent} 
+                        onChange={InputEvent}
+                        autoComplete="off"
                         InputLabelProps={{
                             shrink: true,
                         }}

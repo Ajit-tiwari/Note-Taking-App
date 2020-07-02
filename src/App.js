@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
 import CreateNote from "./CreateNote";
@@ -6,7 +6,11 @@ import Notes from "./Notes";
 import './App.css';
 
 function App() {
+  
   const [item,setItem]=useState([]);
+  useEffect(()=>{
+    document.title="Devloped by Ajit"
+  });
   const addItem=(note)=>{
     setItem((prev)=>{
       return [...prev,note];
